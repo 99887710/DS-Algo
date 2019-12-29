@@ -1,4 +1,4 @@
-# DATA STRUCTURE & AlGORITHMS
+# DATA STRUCTURE & AlGORITHMS USING JAVA
 Java Code for common data structures and alsogrithms
 
 Array
