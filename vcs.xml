@@ -1,0 +1,20 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/docker-images-repo" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://APKAIWF4VQHUUMOWPR4A@git-codecommit.eu-west-1.amazonaws.com/v1/repos/docker-images-repo" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="C:\Users\j9872\Desktop\Projects\play" />
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_TAG_NAMES" value="true" />
+  </component>
+</application>
