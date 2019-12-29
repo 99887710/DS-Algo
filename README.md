@@ -1,4 +1,4 @@
-# DS-Algo
+# DATA STRUCTURE & AlGORITHMS
 Java Code for common data structures and alsogrithms
 
 Array
