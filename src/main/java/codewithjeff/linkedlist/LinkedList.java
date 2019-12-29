@@ -2,8 +2,8 @@ package codewithjeff.linkedlist;
 
 public class LinkedList {
 
-    private Node first;
-    private Node last;
+    private Node first = null;
+    private Node last = null;
 
     private class Node {
         private Node next = null;
@@ -23,5 +23,24 @@ public class LinkedList {
             last.next = newNode;
             last = newNode;
         }
+    }
+
+    public void addFirst(int value){
+        if (first == null)
+            throw new IllegalArgumentException();
+        Node newNode = new Node(value);
+        Node temp = first;
+        first = newNode;
+        first.next = temp;
+    }
+
+    public void print(){
+        Node p = first;
+        if (p == null)
+            throw new IllegalArgumentException("This linkedlist is empty");
+        do {
+            System.out.println(p.value);
+            p = p.next;
+        } while (p != null);
     }
 }
