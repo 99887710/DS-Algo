@@ -9,13 +9,14 @@ public class LinkedListDemo {
         linkedList.addLast(10);
         linkedList.addLast(20);
         linkedList.addLast(30);
-        linkedList.addFirst(-10);
-        linkedList.addFirst(-20);
-        linkedList.removeFirst();
-        linkedList.removeLast();
+        linkedList.addLast(40);
+        linkedList.addLast(50);
+
+        linkedList.reverse();
 
         int[] arr = linkedList.toArray();
         System.out.println(linkedList.size());
         System.out.println(Arrays.toString(arr));
+
     }
 }

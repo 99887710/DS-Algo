@@ -114,6 +114,28 @@ public class LinkedList {
         return arr;
     }
 
+    public void reverse(){
+        Node newHead = null;
+        Node newTail = first;
+        Node current = first;
+        Node next;
+
+        if (isEmpty())
+            throw new NoSuchElementException();
+        if (first == last)
+            return;
+
+        while (current != null) {
+            next = current.next;
+            current.next = newHead;
+            newHead = current;
+            current = next;
+        }
+
+        first = newHead;
+        last = newTail;
+    }
+
     public void print(){
         Node p = first;
         if (p == null)
