@@ -136,6 +136,31 @@ public class LinkedList {
         last = newTail;
     }
 
+    //two pointers and diff
+    public void getKthFromTheEnd(int k) {
+        Node kth = null;
+        Node p1 = first;
+        Node p2 = first;
+        int diff = 0;
+
+        if (isEmpty())
+            throw new NoSuchElementException();
+        while (p1 != last) {
+            if (diff >= k-1)
+                p2 = p2.next;
+
+            p1 = p1.next;
+            diff++;
+        }
+
+        kth = p2;
+
+        if (k-1 >= diff)
+            throw new IllegalArgumentException();
+
+        System.out.println(kth.value);
+    }
+
     public void print(){
         Node p = first;
         if (p == null)

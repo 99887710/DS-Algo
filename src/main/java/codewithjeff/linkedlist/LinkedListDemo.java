@@ -13,6 +13,7 @@ public class LinkedListDemo {
         linkedList.addLast(50);
 
         linkedList.reverse();
+        linkedList.getKthFromTheEnd(2);
 
         int[] arr = linkedList.toArray();
         System.out.println(linkedList.size());
