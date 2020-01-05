@@ -1,9 +1,9 @@
 # DATA STRUCTURE & AlGORITHMS USING JAVA
 Java Code for common data structures and alsogrithms
 
-Array
+*Array*
 
-LinkedList
+*LinkedList*
  - LinkedList Implementation (e.g. addFirst, removeLast...etc)
  - pros:
       (1) Don't waste memory space
@@ -11,6 +11,12 @@ LinkedList
  - cons: 
       (1) Not randomly accessible
 
-Stack
+Exercises:
 
-HashTable
+Q1 - Reverse a string
+
+Q2 - Get the kth node form the end
+
+*Stack*
+
+*HashTable*
