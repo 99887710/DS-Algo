@@ -11,6 +11,7 @@ public class LinkedListDemo {
         linkedList.addLast(30);
         linkedList.addLast(40);
         linkedList.addLast(50);
+        linkedList.addLast(60);
 
         linkedList.reverse();
         linkedList.getKthFromTheEnd(2);
@@ -18,6 +19,8 @@ public class LinkedListDemo {
         int[] arr = linkedList.toArray();
         System.out.println(linkedList.size());
         System.out.println(Arrays.toString(arr));
+
+        linkedList.printMiddle();
 
     }
 }
