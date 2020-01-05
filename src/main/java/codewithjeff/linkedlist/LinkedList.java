@@ -161,6 +161,19 @@ public class LinkedList {
         System.out.println(kth.value);
     }
 
+    public void printMiddle(){
+        Node fast = first;
+        Node slow = first;
+        if (isEmpty())
+            throw new IllegalArgumentException();
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        System.out.println(slow.value);
+    }
+
     public void print(){
         Node p = first;
         if (p == null)
