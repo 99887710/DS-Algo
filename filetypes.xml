@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="OrderFeature" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="graphqls" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
